@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    border-right: 3px solid black;
+}
+
+.scroll{
+    
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    border-bottom: 2px solid black;
+}
+
+#navbar header h2{
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 1em;
+    border-bottom: 2px solid black;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.scroll{
+    height: 480px;
+    overflow-y: auto;
+}
+
+#main-doc{
+    margin-left: 5%;
+}
+
+.main-section header h1{
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25% 65%;
+}
+
+.main-section p, .main-section li{
+    font-size: 1.1em;
+
+}
+
+.main-section p{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+
+.main-section ul{
+    margin-top: 1.5rem;
+}
+
+.main-section li{
+    margin-left: 4rem;
+    padding-top: 1rem;
+}
+
+code{
+    background-color: lightcoral;
+}
+
+@media (max-width: 900px){
+    body{
+        background-color: lightcoral;
+    }
+}
